@@ -8,6 +8,7 @@ import gallery5 from "../../img/gall5.jpg";
 import gallery6 from "../../img/gall6.jpg";
 
 export default function Footer() {
+  const year = new Date().getFullYear();
   const GalleryImages = [
     {
       image: gallery1,
@@ -151,7 +152,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-12">
             <p className="copyright py-3">
-              Copyright © 2023 | All Rights Reserved Dominion Health Care
+              Copyright © {year} | All Rights Reserved Dominion Health Care
               Foundation.
             </p>
           </div>
