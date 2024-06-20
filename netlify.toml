@@ -1,8 +1,6 @@
 [build]
   # Directory where your build files are located
   publish = "build"
-  # Command to build your React project
-  command = "npm run build"
 
 # Redirect all requests to the index.html file
 # This is necessary for a single-page application (SPA) to handle routing
